@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/**/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+
+header{
+    background: linear-gradient(to bottom, #3CDA83, #1A5C38);
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+}
+
+h1{
+    font-weight: bold;
+    margin: 30px;
+}
+
+header > p{
+    padding: 20px;
+}
+
+nav{
+    text-align: left;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 1px 1px 10px black;
+    text-align: justify;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h2{
+    font-family: 'Android';
+    color: #1A5C38;
+}
+
+article > p{
+    text-indent: 20px;
+}
+
+h3{
+    font-family: 'Android';
+    color: #1A5C38;
+    background: linear-gradient(to right, #84E1AD, white);
+    padding-left: 10px;
+}
+
+img{
+    display: block;
+    margin: 10px;
+}
+
+p#center{
+    text-align: center;
+}
+
+div#iframe{
+    background-color: #1A5C38;
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+h4{
+    background-color: #429c6c;
+    padding: 10px;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+div#more{
+        background-color: #b6f1d0;
+        border-radius: 10px;
+}
+
+.padding{
+    padding: 10px;
+    margin: 0px;
+}
+
+footer{
+    text-align: center;
+    background-color: #1A5C38;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+footer > p {
+    margin: 0;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.verde{
+    color: green;
+    font-weight: bold;
+}
+
+ul#coluna1{
+    display: inline-block;
+}
+
+ul#coluna2{
+    display: inline-block;
+}
+    
